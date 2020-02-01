@@ -317,7 +317,8 @@ a[data-goto]:hover {
 
 .fc-day-grid-event {
     margin: 1px 2px 0;
-    padding: 0 1px
+    padding: 0 .5em;
+    border-radius: 20px;
 }
 
 tr:first-child>td>.fc-day-grid-event {
@@ -330,7 +331,8 @@ tr:first-child>td>.fc-day-grid-event {
 
 .fc-day-grid-event .fc-content {
     white-space: nowrap;
-    overflow: hidden
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .fc-day-grid-event .fc-time {
@@ -484,10 +486,10 @@ a.fc-more:hover {
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
-    padding: .4em .65em;
-    font-size: 1em;
-    line-height: 1.5;
-    border-radius: .25em
+    padding: 0 .5em;
+    font-size: 1.2em;
+    border-radius: .25em;
+    box-shadow: none;
 }
 
 .fc-button:hover {
@@ -555,7 +557,6 @@ a.fc-more:hover {
 
 .fc-button .fc-icon {
     vertical-align: middle;
-    font-size: 1.5em
 }
 
 .fc-today-button {
@@ -619,7 +620,7 @@ a.fc-more:hover {
 }
 
 .fc-toolbar>*>:not(:first-child) {
-    margin-left: .75em
+    margin-left: .5em
 }
 
 .fc-toolbar h2 {
@@ -760,4 +761,9 @@ a.fc-more:hover {
     .fc-center {
         display: none;
     }
+}
+
+.fc-createCal-button {
+    color: white;
+    font-size: 1.5em;
 }
