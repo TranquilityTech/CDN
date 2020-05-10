@@ -15,6 +15,7 @@
 [class*=" twicon-"],
 [class^="twicon-"] {
   font-family: twicon !important;
+  display: inline-block;
   speak: none;
   font-style: normal;
   font-weight: 400;
